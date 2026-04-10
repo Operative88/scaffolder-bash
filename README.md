@@ -1,13 +1,13 @@
 # Project Scaffolder (Bash)
 
 Light and fast CLI tool for quick development of new software
-## Funkcje
+## Functions
 - Tworzy standardową strukturę folderów (`src/`, `tests/`, `docs/`).
 - Automatycznie inicjalizuje repozytorium Git.
 - Generuje odpowiednie pliki `.gitignore` i `README.md`.
 - Wspiera szablony: Python, Web, C++ (w przygotowaniu).
 
-## Instalacja
+## Installation
 ```bash
 git clone [https://github.com/TwojUser/project-scaffolder.git](https://github.com/TwojUser/project-scaffolder.git)
 cd project-scaffolder
