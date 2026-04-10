@@ -2,7 +2,7 @@
 
 Light and fast CLI tool for quick development of new software
 ## Functions
-- Tworzy standardową strukturę folderów (`src/`, `tests/`, `docs/`).
+- Creates standart structire of project (`src/`, `tests/`, `docs/`).
 - Automatycznie inicjalizuje repozytorium Git.
 - Generuje odpowiednie pliki `.gitignore` i `README.md`.
 - Wspiera szablony: Python, Web, C++ (w przygotowaniu).
