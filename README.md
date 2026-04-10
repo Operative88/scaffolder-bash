@@ -1,7 +1,6 @@
 # Project Scaffolder (Bash)
 
-Lekkie i szybkie narzędzie CLI do błyskawicznego tworzenia struktury nowych projektów.
-
+Light and fast CLI tool for quick development of new software
 ## Funkcje
 - Tworzy standardową strukturę folderów (`src/`, `tests/`, `docs/`).
 - Automatycznie inicjalizuje repozytorium Git.
