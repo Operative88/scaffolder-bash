@@ -3,9 +3,9 @@
 Light and fast CLI tool for quick development of new software
 ## Functions
 - Creates standart structure of project (`src/`, `tests/`, `docs/`).
-- Automatycznie inicjalizuje repozytorium Git.
-- Generuje odpowiednie pliki `.gitignore` i `README.md`.
-- Wspiera szablony: Python, Web, C++ (w przygotowaniu).
+- Automatically initializes Git repository.
+- Generates appropriate files `.gitignore` i `README.md`.
+- Supports templates: Python, Web, C++ (w przygotowaniu).
 
 ## Installation
 ```bash
