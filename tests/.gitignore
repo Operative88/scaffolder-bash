@@ -1,0 +1,9 @@
+# Test artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary test directories
+/tmp/

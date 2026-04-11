@@ -11,5 +11,34 @@ Light and fast CLI tool for quick development of new software
 ```bash
 git clone [https://github.com/TwojUser/project-scaffolder.git](https://github.com/TwojUser/project-scaffolder.git)
 cd project-scaffolder
-chmod +x start-project
-sudo ln -s $(pwd)/start-project /usr/local/bin/start-project
+chmod +x bin/start-project tests/run-tests.sh tests/unit/*.sh
+sudo ln -s $(pwd)/bin/start-project /usr/local/bin/start-project
+```
+
+## Testing (Testy automatyczne)
+
+Projekt zawiera kompleksowe testy automatyczne w Bash i Python.
+
+### Uruchomienie wszystkich testów
+```bash
+bash tests/run-tests.sh
+```
+
+### Uruchomienie poszczególnych testów
+
+**Testy bash:**
+```bash
+bash tests/unit/test-start-project.sh
+```
+
+**Testy Python:**
+```bash
+python -m pytest tests/unit/test_python_template.py
+# lub
+python tests/unit/test_python_template.py
+```
+
+### Testy w CI/CD
+
+Projekt zawiera GitHub Actions workflow w `.github/workflows/tests.yml` 
+który automatycznie uruchamia wszystkie testy przy każdym push-ie lub pull request-cie
